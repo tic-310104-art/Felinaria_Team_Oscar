@@ -7,18 +7,36 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencias
+node_modules/
 
-# Editor directories and files
+# Archivos generados por Vite
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Cachés
+.eslintcache
+.npm/
+.pnpm-store/
+
+# Archivos temporales de Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
