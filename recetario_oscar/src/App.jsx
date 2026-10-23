@@ -36,7 +36,7 @@ function App() {
          />
       
         <div className="hero-texto">
-          <h1>Recetas más ricas que comer verga</h1>
+          <h1>Las recetas más ricas!</h1>
           <p>Las mejores recetas para sorprender a tu familia</p>
         </div>
         <img 
